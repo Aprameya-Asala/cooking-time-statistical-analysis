@@ -1,3 +1,5 @@
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
+title: "How Long Should I Be Cooking?"
+description: "A Statistical Analysis on the Relationship Between Cooking Time and Rating of Recipes"
