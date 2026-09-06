@@ -29,7 +29,7 @@ Looks much better, and easier to acess. Now lets observe some of the univariate 
 ></iframe>
 Here is a distribution of the average ratings for each recipe in the dataset portrayed using a density histogram. There is a visible left skew in the rating distribution, hinting at a pattern in how the food here was rated. It is important to understand this distribution as this is the base distribution before I start transforming it to extract insights, and observing this can help us check if there is anything wrong with the data and keep us grounded while performing analysis.
 <iframe
-  src="assets/cooktime_logged.html"
+  src="assets/cooktime-logged.html"
   width="800"
   height="450"
   frameborder="0"
