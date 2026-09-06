@@ -21,6 +21,13 @@ Cleaning this dataset required quite a bit of work. First I started by merging t
 | 2000 meatloaf                        |        90 | False        |        5 |      267   |              30 | False           |
 
 Looks much better, and easier to acess. Now lets observe some of the univariate and bivariate distributions in our dataset:
+<iframe
+  src="assets/rating-distribution.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+Here is a distribution of the average ratings for each recipe in the dataset portrayed using a density histogram. There is a visible left skew in the rating distribution, hinting at a pattern in how the food here was rated. It is important to understand this distribution as this is the base distribution before I start transforming it to extract insights, and observing this can help us check if there is anything wrong with the data and keep us grounded while performing analysis.
 
 ## Assessment of Missingness
 ## Hypothesis Testing
