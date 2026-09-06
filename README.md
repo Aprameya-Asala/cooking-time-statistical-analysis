@@ -24,11 +24,37 @@ Looks much better, and easier to acess. Now lets observe some of the univariate 
 <iframe
   src="assets/rating-distribution.html"
   width="800"
-  height="600"
+  height="450"
   frameborder="0"
 ></iframe>
 Here is a distribution of the average ratings for each recipe in the dataset portrayed using a density histogram. There is a visible left skew in the rating distribution, hinting at a pattern in how the food here was rated. It is important to understand this distribution as this is the base distribution before I start transforming it to extract insights, and observing this can help us check if there is anything wrong with the data and keep us grounded while performing analysis.
+<iframe
+  src="assets/cooktime_logged.html"
+  width="800"
+  height="450"
+  frameborder="0"
+></iframe>
+Above is the distribution of the logged cook time in minutes, as the original cook time had a few outliers, this is much better to inspect visually. As we can see, there are no issues with this data, and the logged minutes are approximately normally distributed. This should be kept in mind, though we do not use logged minutes in our analysis, that there are not any unforeseen issues with the data.
+<iframe
+  src="assets/rating-distribution-hourly.html"
+  width="800"
+  height="450"
+  frameborder="0"
+></iframe>
+And here is what the differences between our under and over hour in cook time's rating distributions look like. As observed by this density histogram, the differences seem quite small, but visible in some ratings. It will be interesting to see if there is any significance in this difference in the later steps.
+<iframe
+  src="assets/rating-distribution-baked.html"
+  width="800"
+  height="450"
+  frameborder="0"
+></iframe>
+And here we have a comparison on the rating distribution of baked vs unbaked goods. This density histogram shows us whether baked goods were treated differently by those who submitted reviews than unbaked goods, and at least visually there do appear to be some differences in the distributions, particularly in the rating 5 column where we can see that a greater probability of unbaked goods had ratings this high than baked goods.
 
+Finally, lets take a look at the actual numbers for the ratings of over an under an hour, as that will be the main focus of this part of the project. Below, we can see that there is a very minor difference between the mean ratings of each category. Then the question becomes, does this difference hold any statistical significance? If so, does it matter? These are the next steps, which we will tackle after a quickly addressing the missing data in this dataset.
+| under_hour   |   rating |
+|:-------------|---------:|
+| False        |  4.61345 |
+| True         |  4.62931 |
 ## Assessment of Missingness
 ## Hypothesis Testing
 ## Framing a Prediction Problem
