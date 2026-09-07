@@ -1,3 +1,4 @@
+# How Long Should I Be Cooking
 ## Introduction
 As a college student, I am often faced with the question, should I cook at home? How long should I be cooking? With how busy I am, will whatever I have the time to cook even taste good? This is what I will answer in the first part of my project, followed by me creating a predictive model on the calorie count of a recipe using its fat, sugar, and other macros. But first an introduction to the dataset I will be using. I will be using the Recipes and Ratings dataset, containing information regarding recipes from food.com originally scraped by Bodhisattwa Prasad Majumder, Shuyang Li, Jianmo Ni, and Julian McAuley. This dataset contains various information regarding recipes, with the important information for this project described below:
 
